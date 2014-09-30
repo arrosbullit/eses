@@ -1,0 +1,257 @@
+p, body, html, div {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body {
+	background:pink;
+}
+
+/* Això és pq sino en posar una imatge
+	veig com un margin a sota que diuen
+	que és pq ho tracta com si fos un
+	text que normalment necessita uns
+	pixes a sota pels ganxos de les
+	lletres que tenen ganxo com la j
+*/
+img {
+    vertical-align: middle;
+}
+
+.robert-border{
+	border: 1px dashed green;
+}
+
+.header-background {
+	background: #1f8dd6;
+}
+
+.titol {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align:center;
+	font-family: 'Marcellus', sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+.contacte {
+    color: #1f8dd6;
+    background: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	
+	text-align: center;
+	font-family: 'Marcellus', sans-serif;
+    font-size: 1.5em;
+}
+
+.whatsapp-logo {
+	width: 1.5em;
+	height: 1.5em;
+	display: inline-block;
+}
+
+.telefon {
+	font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.image-bg {
+    background: #1f8dd6;
+}
+
+.imatge-ampla {
+	border: 0;
+	margin: 0;
+	padding: 0;
+    width: 100%; /* ocupa tot a l'ample */
+    /*height: auto;*/ /* manté l'aspect ratio */
+	min-height: 200px;
+}
+
+.my-bg{
+	margin-top: 0px;
+    background: #1f8dd6;
+    color: white;
+}
+
+.my-bg-2{
+	margin-top: 0px;
+    background: white;
+    color: #1f8dd6;
+}
+
+.amplada-en-px {
+	max-width: 350px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.descripcio {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-family: 'Marcellus', 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.container-imatges {
+	width: 100%;
+	background: white;
+}
+
+.imatge-mitja-pantalla-1 {
+	width: 50%;
+	float: left;
+	height: auto;
+	margin: 0;
+}
+
+.imatge-mitja-pantalla-2 {
+	width: 50%;
+	float: right;
+	height: auto;
+	margin: 0;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.empty-space {
+	height: 70px;
+}
+
+.separador {
+	width: 300px;
+	margin: 0px auto;
+	border-top: 4px solid brown;
+	text-align: center;
+	font-size: 2em;
+	padding-bottom: 40px;
+}
+
+.icona-separador {
+	position: relative;
+	top: -0.5em;;
+	margin: 0px;
+	color: brown;
+	background-color: #1f8dd6;
+	padding-left: 2px;
+	padding-right: 5px;
+}
+
+
+h2 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    font-size: 2em;
+	padding-top: 0;
+	padding-bottom: 1em;
+	font-family: 'Marcellus', sans-serif;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1.5em;
+	font-family: 'Marcellus', sans-serif;
+	vertical-align: baseline;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0;
+    /*border-top: 1px dashed #fff;*/
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+    *white-space: normal;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	padding-top: 2em;
+}
+
+table th, table td {
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+table tr.senar {
+    background-color: #145885;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+
+@media (min-width:740px){
+	.titol {
+		font-size: 5em;
+	}	
+	.contacte {
+		font-size: 2em;
+	}
+	.telefon {
+		font-size: 2rem;
+	}
+	.amplada-en-px {
+		max-width: 700px;
+	}
+	.descripcio {
+		font-size: 2em;
+	}
+	.separador{
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 3em;
+	}
+	p {
+		font-size: 2em;
+	}
+	table {
+		font-size: 2em;
+	}
+}
+
+@media (max-width:739px){
+	.titol {
+		font-size: 3em;
+	}	
+	.contacte {
+		font-size: 1.5em;
+	}
+	.telefon {
+		font-size: 1.5rem;
+	}
+	.amplada-en-px {
+		max-width: 350px;
+	}
+	.descripcio {
+		font-size: 1.5em;
+	}
+	.separador{
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	table {
+		font-size: 1.2em;
+	}
+}
