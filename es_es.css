@@ -53,10 +53,16 @@ img {
 	display: inline-block;
 }
 
+
 .telefon {
 	font-family: sans-serif;
     font-size: 1.5em;
     font-style: italic;
+}
+
+.telefon-text {
+	font-family: 'Marcellus', sans-serif;
+    font-size: 1em;
 }
 
 .image-bg {
@@ -206,6 +212,10 @@ table tr.senar {
 	}
 	.telefon {
 		font-size: 2rem;
+	}
+	.telefon-text {
+		font-family: 'Marcellus', sans-serif;
+		font-size: 1.5em;
 	}
 	.amplada-en-px {
 		max-width: 700px;
