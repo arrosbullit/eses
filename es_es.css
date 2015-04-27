@@ -134,7 +134,9 @@ img {
 .separador {
 	width: 300px;
 	margin: 0px auto;
-	border-top: 4px solid brown;
+	/*border-top: 4px solid brown;*/
+	border-top: 4px solid #ccad00;
+	
 	text-align: center;
 	font-size: 2em;
 	padding-bottom: 40px;
@@ -144,7 +146,8 @@ img {
 	position: relative;
 	top: -0.5em;;
 	margin: 0px;
-	color: brown;
+	/*color: brown;*/
+	color: #ccad00;
 	background-color: #1f8dd6;
 	padding-left: 2px;
 	padding-right: 5px;
@@ -202,6 +205,9 @@ table tr.senar {
     font-weight: bold;
 }
 
+.golden {
+	color: #ccad00;
+}
 
 @media (min-width:740px){
 	.titol {
